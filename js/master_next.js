@@ -10,9 +10,11 @@ function getNext() {
         })
         .then(function (data_next) {
             nextName = data_next.name;
-            nextPatch = data_next.links['patch']['large']
+            nextPatch = data_next.links['patch']['large'];
             nextRocket = data_next.rocket;
             nextTime = data_next.date_unix;
+            landingType = data_next.cores['0']['landing_type'];
+            nextInformation = data_next.details;
         })
         .then(function () {
             displayNext();
@@ -26,6 +28,8 @@ function displayNext() {
 
   launch_name.innerHTML = nextName;
   launch_patch.innerHTML = `<img src="${nextPatch}"/>`;
+  landing_type.innerHTML = landingType;
+  launch_information.innerHTML = nextInformation;
 
 }
 

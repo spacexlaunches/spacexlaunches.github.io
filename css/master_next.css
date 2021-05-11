@@ -1,56 +1,113 @@
+/* Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
 
 * {
   font-family: 'Montserrat'
 }
 
-/* next launch */
+/*********************************** next launch ***********************************/
+
+
+/* content */
 
 .content {
-  /* border: 2px solid #ccc; */
-  /* width: inherit; */
-  /* margin: 60px; */
 
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
+  transform: translateY(-50%) translateX(-50%); */
 
-.launch_rocket img {
-  width: 200px;
-
-  display: inline-block;
-
-  /* position: absolute; */
-
-  /* top: 50%;
-  transform: translateY(-50%); */
 
 }
 
-.launch_patch img {
-  width: 200px;
 
-  display: inline-block;
+/* left cell */
 
-  /* position: absolute; */
+.left_cell {
 
-  /* top: 50%;
-  transform: translateY(-50%); */
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  left: 0;
 
 }
 
-.font {
-
+.launch_countdown {
+  text-align: center;
   font-weight: 500;
   font-size: 200%;
+}
 
-  text-align: center;
+/* right cell */
 
-  display: inline-block;
+.right_cell {
+
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+
+}
+
+/* patch img */
+
+.launch_patch img {
+
+  width: 100%;
 
 }
 
 
-/* psat and future launch */
+/* rocket img */
+
+.launch_rocket img {
+
+  width: 50%;
+
+}
+
+
+/* name */
+
+.launch_name {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+
+/* landing type */
+
+.landing_type {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+
+/* date */
+
+.launch_time {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+/* tabulary */
+
+.launch_next-table .top_row {
+  padding: 0px;
+}
+
+.launch_next-table .row {
+
+    text-align: center;
+    padding: 5%;
+
+}
