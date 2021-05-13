@@ -13,3 +13,4 @@
 * [ ] create upcoming launches page
 * [ ] create past launches page
 * [ ] create starship milestone page
+* [ ] smartphone / tablet compatibility
