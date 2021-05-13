@@ -1,27 +1,18 @@
-.page_menu{
-  width:
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+* {
+  font-family: 'Montserrat'
 }
 
-#loader {
-            border: 12px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 12px solid #444444;
-            width: 70px;
-            height: 70px;
-            animation: spin 1s linear infinite;
-        }
-
-        @keyframes spin {
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
-        .center {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
+.page_menu{
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 10ßx;
+  overflow-x: hidden;
+  padding-top: 20px;
+  left: 10px;
+}

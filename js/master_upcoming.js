@@ -9,19 +9,14 @@ function getUpcoming() {
             return data_upcoming;
         })
         .then(function (data_upcoming) {
-            numUpcoming =  data_upcoming;
-            numUpcomingCounter = 0;
-            for(launch in numUpcoming) {
-              upcomingName = data_upcoming.['0'];
-            }
+          launches = data_upcoming;
+          console.log(launches[0]);
+          displayUpcoming();
         })
         .then(function () {
-            displayUpcoming();
         });
 }
 
 function displayUpcoming() {
-
-  numUpcomingDIV.innerHTML = upcomingName;
 
 }
