@@ -6,7 +6,7 @@
 
 ### ToDo
 
-* [x] figure out how the API workd
+* [x] figure out how the API work
 * [x] create home page
 * [x] create information page
 * [x] create next launch page
